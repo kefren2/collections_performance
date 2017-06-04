@@ -25,7 +25,8 @@ TestOne(std::string name)
 	for (size_t i = 0; i < TOTAL; i += 2000)
 		assert(c.Find(i) == true);
 	duration = clock.Stop();
-	std::cout << "Find: " << duration << std::endl << std::endl << std::endl;
+	std::cout	<< "Find: " << duration
+			<< std::endl << std::endl << std::endl;
 }
 
 int

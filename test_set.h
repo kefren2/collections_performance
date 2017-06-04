@@ -1,4 +1,4 @@
-﻿#ifndef __TEST_SET__
+#ifndef __TEST_SET__
 #define __TEST_SET__
 
 #include <sys/types.h>
@@ -7,6 +7,7 @@
 
 #include <type_traits>
 
+#include <algorithm>
 #include <list>
 #include <set>
 #include <unordered_set>
